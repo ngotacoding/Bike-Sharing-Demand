@@ -78,6 +78,9 @@ Adding more features and hyperparameter optimization.
 
 ![model_test_score.png](img/model_test_score.png)
 
+### Correlation of Features
+
+![correlation.png](img/correlation.png)
 
 ## Summary
 This report outlines the process of predicting bike sharing demand using AutoGluon. It covers initial training, where the top-ranked model was the WeightedEnsemble_L3. The initial Kaggle score was 1.80815. Exploratory data analysis led to the addition of seven additional features. The model's performance significantly improved after adding features, achieving a Kaggle score of 0.65756. Hyperparameter tuning was conducted in four rounds, with the best model combination of GBM and NN_TORCH achieving a Kaggle score of 0.46235.
